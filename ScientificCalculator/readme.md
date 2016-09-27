@@ -1,0 +1,1 @@
+This project deals with the scientific calculator

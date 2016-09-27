@@ -1,0 +1,1 @@
+This project deals with the mathematics tool solving the quadratic equation ax^2 + bx + c
