@@ -10,3 +10,4 @@ To get started with these projects,simply fork the repository
 ###  2. Digital and analog Clock
 ###  3. Stop Watch
 ###  4. Quadratic Equation Solver
+###  5. Tic Tac Toe
