@@ -1,0 +1,10 @@
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\bin\Debug\Calculator.xml
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.Cache
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.xml
+c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
