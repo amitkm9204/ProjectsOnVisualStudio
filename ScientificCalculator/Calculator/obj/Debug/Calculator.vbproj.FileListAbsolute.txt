@@ -8,3 +8,4 @@ c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\De
 c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
 c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.xml
 c:\users\amit\documents\visual studio 2013\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\AMIT\documents\visual studio 2013\Projects\calculator\Calculator\obj\Debug\Calculator.vbprojResolveAssemblyReference.cache

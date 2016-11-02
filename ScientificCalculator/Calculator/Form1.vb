@@ -81,7 +81,7 @@
         If temp = "0" Or temp = "+" Or temp = "-" Or temp = "*" Or temp = "/" Then
             TextBox1.Text = "8"
         Else
-            TextBox1.Text = temp + "9"
+            TextBox1.Text = temp + "8"
         End If
     End Sub
 
@@ -101,39 +101,46 @@
         Else
             TextBox1.Text = temp + "."
         End If
+        Button11.Enabled = False
     End Sub
 
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
         TextBox1.Text = "0"
+        Button11.Enabled = True
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
         first = CDbl(TextBox1.Text)
         TextBox1.Text = "+"
         op = "+"
+        Button11.Enabled = True
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
         first = CDbl(TextBox1.Text)
         TextBox1.Text = "-"
         op = "-"
+        Button11.Enabled = True
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
         first = CDbl(TextBox1.Text)
         TextBox1.Text = "*"
         op = "*"
+        Button11.Enabled = True
     End Sub
 
     Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
         first = CDbl(TextBox1.Text)
         TextBox1.Text = "/"
         op = "/"
+        Button11.Enabled = True
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
         first = CDbl(TextBox1.Text)
         TextBox1.Text = 1 / first
+        Button11.Enabled = True
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
@@ -143,10 +150,12 @@
         ElseIf op = "-" Then
             If first > second Then
                 tempop = first - second
+                TextBox1.Text = tempop
             Else
                 tempop = second - first
+                TextBox1.Text = "-" + CStr(tempop)
             End If
-            TextBox1.Text = "-" + tempop
+            'MsgBox(tempop)
         ElseIf op = "*" Then
             TextBox1.Text = first * second
         ElseIf op = "/" Then
@@ -157,7 +166,37 @@
             End If
 
         End If
+        Button11.Enabled = True
 
+    End Sub
 
+    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+        first = CDbl(TextBox1.Text)
+        TextBox1.Text = Math.Log10(first)
+        Button11.Enabled = True
+    End Sub
+
+    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
+        first = CDbl(TextBox1.Text)
+        TextBox1.Text = Math.Sin(first)
+        Button11.Enabled = True
+    End Sub
+
+    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+        first = CDbl(TextBox1.Text)
+        TextBox1.Text = Math.Cos(first)
+        Button11.Enabled = True
+    End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        first = CDbl(TextBox1.Text)
+        TextBox1.Text = Math.Tan(first)
+        Button11.Enabled = True
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        first = CDbl(TextBox1.Text)
+        TextBox1.Text = Math.Sqrt(first)
+        Button11.Enabled = True
     End Sub
 End Class
