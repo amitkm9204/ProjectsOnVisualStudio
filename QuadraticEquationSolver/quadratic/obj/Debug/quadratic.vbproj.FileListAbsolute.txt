@@ -1,0 +1,11 @@
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\bin\Debug\quadratic.exe.config
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\bin\Debug\quadratic.exe
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\bin\Debug\quadratic.pdb
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\bin\Debug\quadratic.xml
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\obj\Debug\quadratic.Form1.resources
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\obj\Debug\quadratic.Resources.resources
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\obj\Debug\quadratic.vbproj.GenerateResource.Cache
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\obj\Debug\quadratic.exe
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\obj\Debug\quadratic.xml
+c:\users\amit\documents\visual studio 2013\Projects\quadratic\quadratic\obj\Debug\quadratic.pdb
+C:\Users\AMIT\documents\visual studio 2013\Projects\quadratic\quadratic\obj\Debug\quadratic.vbprojResolveAssemblyReference.cache
