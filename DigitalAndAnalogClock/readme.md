@@ -1,1 +1,0 @@
-This project deals with the Digital and Analog clock
